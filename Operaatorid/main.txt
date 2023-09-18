@@ -1,0 +1,19 @@
+Operaatorid on märkid mis saad kasutada et võrrelda asju. See annab tagasi true ja false oleneb kas võrdlus oli tõene või väär
+
+< > suurem kui väiksem kui ja väiksem kui - saab võrrelda kahte asja kas on suurem või väiksem 
+
+ <= kui midagi on väiksem kui või on sama suur
+
+ >= kui midagi on suurem kui või on sama suur
+
+järgmised asjad võrdleb booleane
+
+ && kontrollib kas kaks asja on true
+
+ || kotrollib kas vähemalt üks on true
+
+ ! paneb booleane tema vastupidi mis ta on
+
+Control flow ja conditionals:
+
+if while loop
