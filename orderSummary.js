@@ -31,6 +31,12 @@ var tellimus = {
         "vat": 0.2 
       } 
     ] 
-  } 
-
-console.log(tellimus.rows)
+}
+hind = 0
+tellimus.rows.forEach(element => {
+    console.log(element.name)
+    console.log(element.amount)
+    console.log(element.price)
+    hind = hind + element.price
+});
+console.log(hind)
