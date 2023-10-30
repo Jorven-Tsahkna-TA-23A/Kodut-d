@@ -36,7 +36,7 @@ hind = 0
 tellimus.rows.forEach(element => {
     console.log(element.name)
     console.log(element.amount)
-    console.log(element.price)
-    hind = hind + element.price
+    console.log(element.price * element.amount)
+    hind = hind + element.price * element.amount
 });
 console.log(hind)
